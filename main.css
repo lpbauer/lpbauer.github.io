@@ -58,16 +58,22 @@ i + i {
   width: 350px;
 }
 
-.icon-jquery, .icon-html5-alt,
-.icon-git, .icon-css3-alt,
+.icon-jquery,
+.icon-html5-alt,
+.icon-git,
+.icon-css3-alt,
 .icon-ruby-on-rails,
-.icon-ruby, .icon-postgres, .icon-javascript-alt {
+.icon-ruby,
+.icon-postgres,
+.icon-javascript-alt,
+.icon-mongodb,
+.icon-python {
   font-size: 65px;
   color: #395670;
 }
 
 .icon-bootstrap {
-  font-size: 65px;
+  font-size: 60px;
   color: #395670;
 }
 
@@ -83,7 +89,9 @@ i + i {
   padding-right: 20px;
 }
 
-
+.project-image {
+  height: 300px;
+}
 /*trying to add padding between containers*/
 /*.col-sm-offset-4 {
   margin-top: 50%;
