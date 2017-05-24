@@ -54,7 +54,7 @@ i + i {
   color: #ffffff;
   font-size: 45px;
   letter-spacing: 4px;
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 .skill-logo {
@@ -72,7 +72,7 @@ i + i {
 .test {
   left: 35%;
   right: 35%;
-  top: 20%;
+  top: 25%;
   bottom: 35%;
   position: absolute;
   width: 350px;
