@@ -26,7 +26,7 @@ i + i {
 
 .background-img {
   width: 100%;
-  height: 600px;
+  height: 650px;
 }
 
 .skills-row,
@@ -34,13 +34,14 @@ i + i {
   background-color: #395670;
   height: 125px;
 }
+
 .skills-container {
   padding-top: 4%;
 }
 
 .project-images-row {
     background-color: #395670;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
 }
 
@@ -71,11 +72,28 @@ i + i {
 
 .test {
   left: 35%;
-  right: 35%;
-  top: 25%;
+  right: 25%;
+  top: 15%;
   bottom: 35%;
   position: absolute;
   width: 350px;
+}
+
+.about-me {
+  left: 35%;
+  right: 25%;
+  top: 70%;
+  bottom: 10%;
+  position: absolute;
+  width: 350px;
+  height: 170px;
+  background-color: #395670;
+  padding: 10px 20px;
+  color: white;
+}
+
+.signature {
+  text-align: right;
 }
 
 .icon-jquery,
@@ -116,6 +134,16 @@ i + i {
 
 .project-image {
   height: 300px;
+  width: 400px;
+}
+
+.project-text {
+  text-align: left;
+  font-size: 12px;
+}
+
+.project-title {
+  font-size: 20px;
 }
 /*trying to add padding between containers*/
 /*.col-sm-offset-4 {
