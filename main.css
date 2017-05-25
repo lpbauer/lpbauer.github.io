@@ -71,8 +71,8 @@ i + i {
 }
 
 .profile-pic {
-  left: 30%;
-  right: 30%;
+  left: 28%;
+  right: 28%;
   top: 10%;
   bottom: 35%;
   position: absolute;
@@ -80,15 +80,15 @@ i + i {
 }
 
 .about-me {
-  left: 32%;
-  right: 32%;
+  left: 25%;
+  right: 25%;
   top: 60%;
   bottom: 15%;
   position: absolute;
   width: 500px;
-  height: 250px;
+  height: 650px;
   background-color: #395670;
-  padding: 10px 20px;
+  padding: 10px 12px;
   color: white;
 }
 
