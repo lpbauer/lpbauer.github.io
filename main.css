@@ -80,7 +80,7 @@ i + i {
 }
 
 .about-me {
-  left: 25%;
+  left: 22%;
   right: 25%;
   top: 60%;
   bottom: 15%;
@@ -90,10 +90,6 @@ i + i {
   background-color: #395670;
   padding: 10px 12px;
   color: white;
-}
-
-.signature {
-  text-align: right;
 }
 
 .icon-jquery,
