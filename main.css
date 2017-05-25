@@ -80,15 +80,15 @@ i + i {
 }
 
 .about-me {
-  left: 22%;
-  right: 25%;
+  left: 23%;
+  right: 23%;
   top: 60%;
   bottom: 15%;
   position: absolute;
   width: 500px;
   height: 650px;
   background-color: #395670;
-  padding: 10px 12px;
+  padding: 12px 10px;
   color: white;
 }
 
