@@ -19,7 +19,7 @@ footer {
   letter-spacing: 10px;
 }
 
-/*Spacing between social icons v*/
+/*Spacing between social icons*/
 i + i {
   margin-left: 10px;
 }
@@ -86,7 +86,6 @@ i + i {
   bottom: 15%;
   position: absolute;
   width: 500px;
-  height: 650px;
   background-color: #395670;
   padding: 12px 10px;
   color: white;
@@ -116,9 +115,9 @@ i + i {
   letter-spacing: 2px;
 }
 
-.col-sm-4 {
+/*.col-sm-4 {
   text-align: center;
-}
+}*/
 
 .invisible {
   color: white;
@@ -134,14 +133,15 @@ i + i {
 }
 
 .project-text {
+  align-content: center;
   text-align: left;
   font-size: 12px;
+  max-width: 400px;
+  min-width: 250px;
 }
+
 
 .project-title {
   font-size: 20px;
+  text-align: center;
 }
-/*trying to add padding between containers*/
-/*.col-sm-offset-4 {
-  margin-top: 50%;
-}*/
