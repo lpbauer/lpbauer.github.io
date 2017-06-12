@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="main.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -10,30 +10,42 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
 </head>
 <title>Luke Bauer - Full Stack Web Developer</title>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">LUKE BAUER</a>
+  <!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="navbar-header">
+  <a class="navbar-brand" href="#">LUKE BAUER</a>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li class="active"><a href="#skills-stack">Skills Stack</a></li>
+<li class="active"><a href="#projects">Projects</a></li>
+<li class="active"><a href="#">About Me</a></li>
+</nav> -->
+<div class="row">
+  <div class="col-sm-12">
+    <div class="header-nav">
+      <a href="" class="active name-link-style">LUKE BAUER</a>
+      <a href="#skills-stack" class="active skills-link-style">Skills Stack</a>
+      <a href="#projects" class="active projects-link-style">Projects</a>
+      <a href="#" class="active about-link-style">About Me</a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#skills-stack">Skills Stack</a></li>
-      <li class="active"><a href="#projects">Projects</a></li>
-      <li class="active"><a href="#">About Me</a></li>
-  </nav>
-  <div class="row">
-    <div class="col-sm-12">
-      <img class="img-fluid background-img" src="images/green_triangle.jpg" alt="Responsive image">
-      <img class="img-fluid profile-pic img-responsive center-block" src="images/profile_circle_petco_sm.png" alt="Responsive image">
-      <div class="about-me  img-responsive center-block">
-        <p>I'm Luke Bauer.  I'm a full stack web developer who loves to learn and has an eye for the details.   My background in visual design really shapes my perspective.   Creativity and logic are my bread and butter and I think they really come in handy as a programmer.</p>
-        <p>Some of my interests that are less techie:  Cycling, Disc Golf, Running, Ultimate Frisbee, Dad Jokes, Making Homemade Cold Brew, and Finding Good Deals on Craigslist.</p>
-      </div>
-    </div>
-    <div id="skills-stack"></div>
   </div>
-  <div class="row skills-row" >
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <img class="img-fluid about-background">
+    <img class="img-fluid profile-pic img-responsive center-block" src="images/profile_circle_petco_sm.png" alt="Responsive image">
+    <div class="about-me  img-responsive center-block">
+      <p>I'm Luke Bauer.  I'm a full stack web developer who loves to learn and has an eye for the details.   My background in visual design really shapes my perspective.   Creativity and logic are my bread and butter and I think they really come in handy as a programmer.</p>
+      <p>Some of my interests that are less techie:  Cycling, Disc Golf, Running, Ultimate Frisbee, Dad Jokes, Making Homemade Cold Brew, and Finding Good Deals on Craigslist.</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid skills-row">
+  <div class="row skills-row-top" >
+    <div id="skills-stack"></div>
     <div class="col-sm-12">
       <p class="headings" >SKILLS STACK</p>
     </div>
@@ -50,76 +62,77 @@
   <br>
   <br>
   <br>
-  <div class="row">
-    <div class="col-sm-2 col-sm-offset-2 skill-logo"><i class="icon-bootstrap"></i><br>Bootstrap</div>
-    <div class="col-sm-2 skill-logo"><i class="icon-ruby"></i><br>Ruby</div>
-    <div class="col-sm-2 skill-logo"><i class="icon-ruby-on-rails"></i><br>Ruby On Rails</div>
-    <div class="col-sm-2 skill-logo"><i class="icon-postgres"></i><br>PostgreSQL</div>
-    <div class="col-sm-offset-2"></div>
+<div class="row">
+  <div class="col-sm-2 col-sm-offset-2 skill-logo"><i class="icon-bootstrap"></i><br>Bootstrap</div>
+  <div class="col-sm-2 skill-logo"><i class="icon-ruby"></i><br>Ruby</div>
+  <div class="col-sm-2 skill-logo"><i class="icon-ruby-on-rails"></i><br>Ruby On Rails</div>
+  <div class="col-sm-2 skill-logo"><i class="icon-postgres"></i><br>PostgreSQL</div>
+  <div class="col-sm-offset-2"></div>
+</div>
+<br>
+<br>
+<br>
+<div class="row">
+  <div class="col-sm-2 col-sm-offset-2 skill-logo"><i class="icon-mongodb"></i><br>MongoDB</div>
+  <div class="col-sm-2 skill-logo"><i class="icon-git"></i><br>Git</div>
+  <div class="col-sm-2 skill-logo"><i class="fa fa-github fa-5x" aria-hidden="true"></i><br><br>Github</div>
+  <div class="col-sm-2 skill-logo"><i class="fa fa-bitbucket fa-5x"></i><br><br>BitBucket</div>
+  <div class="col-sm-offset-2"></div>
+</div>
+<br>
+<br>
+<br>
+<div class="row">
+  <div class="col-sm-2 col-sm-offset-2 skill-logo"><i class=""></i><br></div>
+  <div class="col-sm-2 skill-logo"><i class="icon-python"></i><br>Python</div>
+  <div class="col-sm-2 skill-logo"><i class="fa fa-flask fa-5x"></i><br><br>Flask</div>
+  <div class="col-sm-2 skill-logo"><i class=""></i></div>
+  <div class="col-sm-offset-2"></div>
+</div>
+<br>
+<br>
+<br>
+</div>
+<div id="projects"></div>
+<div class="container-fluid">
+<div class="row projects-row" >
+  <div class="col-sm-12">
+    <p class="headings-projects">PROJECTS</p>
   </div>
-  <br>
-  <br>
-  <br>
-  <div class="row">
-    <div class="col-sm-2 col-sm-offset-2 skill-logo"><i class="icon-mongodb"></i><br>MongoDB</div>
-    <div class="col-sm-2 skill-logo"><i class="icon-git"></i><br>Git</div>
-    <div class="col-sm-2 skill-logo"><i class="fa fa-github fa-5x" aria-hidden="true"></i><br><br>Github</div>
-    <div class="col-sm-2 skill-logo"><i class="fa fa-bitbucket fa-5x"></i><br><br>BitBucket</div>
-    <div class="col-sm-offset-2"></div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <div class="row">
-    <div class="col-sm-2 col-sm-offset-2 skill-logo"><i class=""></i><br></div>
-    <div class="col-sm-2 skill-logo"><i class="icon-python"></i><br>Python</div>
-    <div class="col-sm-2 skill-logo"><i class="fa fa-flask fa-5x"></i><br><br>Flask</div>
-    <div class="col-sm-2 skill-logo"><i class=""></i></div>
-    <div class="col-sm-offset-2"></div>
-  </div>
-  <br>
-  <br>
-  <div id="projects"></div>
-  <br>
-  <div class="row projects-row" >
-    <div class="col-sm-12">
-      <p class="headings">PROJECTS</p>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row project-images-row">
-      <div class="col-xs-6 col-sm-4 project-fonts"><a href="https://findfit2017.herokuapp.com" target="_blank"><img src="images/Findfit1.png" class="project-image"></a><br><br>
-        <div class="items-center">
-          <p class="project-title">FindFit</p>
-          <p class="project-text">Ever wondered if there was a group of strangers to exercise with at a local park?  Ever wanted to start your own bocce ball meet up on Thursday afternoons?  FindFit is your answer.  FindFit is the culmination of an intense 12 weeks of learning Ruby on Rails and JavaScript and CSS and PosgreSQL and well, you get the point.  I was a part of a 6 member group who worked for just over two weeks straight to get this thing up and running.  FindFit utilizes many features that you will find in most modern web applications today.  Click the above image to see for yourself.
-          </p>
-          <p class="project-text">Technologies: HTML, CSS, JavaScript, Bootstrap, Ruby, Ruby on Rails, PostgreSQL, GMaps(Google Maps API), AJAX, jQuery</p>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-4 project-fonts"><a href="projects/Battleship-Final/final.html" target="_blank"><img src="images/Battleship1.png" class="project-image"></a><br><br>
-        <div class="items-center">
-          <p class="project-title">JavaScript Battleship</p>
-          <p class="project-text">It's a classic game that is apparently a bear to build in JavaScript.  I'm not going to lie, this was tough.  Loved every minute of it though.  Hope you enjoy this nearly impossible to beat web based version of the original.  (Hint: No two ships will ever be touching each other.)
-          </p>
-          <p class="project-text">Technologies: HTML, CSS, JavaScript</p>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-4 project-fonts"><a href="https://collaboration-tracker.herokuapp.com/login/heroku_user" target="_blank"><img src="images/Neuropace1.png" class="project-image"></a><br><br>
-        <div class="items-center">
-          <p class="project-title">NeuroPace</p>
-          <p class="project-text">I had the pleasure of completing a 5 week web development internship with NeuroPace.  Myself and two other interns built a web based information tracking and sharing tool for employees and clients . . . from nothing . . . in Python . . . with MongoDB.   It was all new and very exciting.
-          </p>
-          <p class="project-text">Technologies: HTML, CSS, JavaScript, Bootstrap, jQuery, Python, Flask, MongoDB, AJAX</p>
-        </div>
+</div>
+  <div class="row project-images-row">
+    <div class="col-xs-6 col-sm-4 project-fonts"><a href="https://findfit2017.herokuapp.com" target="_blank"><img src="images/Findfit1.png" class="project-image"></a><br><br>
+      <div class="items-center">
+        <p class="project-title">FindFit</p>
+        <p class="project-text">Ever wondered if there was a group of strangers to exercise with at a local park?  Ever wanted to start your own bocce ball meet up on Thursday afternoons?  FindFit is your answer.  FindFit is the culmination of an intense 12 weeks of learning Ruby on Rails and JavaScript and CSS and PosgreSQL and well, you get the point.  I was a part of a 6 member group who worked for just over two weeks straight to get this thing up and running.  FindFit utilizes many features that you will find in most modern web applications today.  Click the above image to see for yourself.
+        </p>
+        <p class="project-text">Technologies: HTML, CSS, JavaScript, Bootstrap, Ruby, Ruby on Rails, PostgreSQL, GMaps(Google Maps API), AJAX, jQuery</p>
       </div>
     </div>
+    <div class="col-xs-6 col-sm-4 project-fonts"><a href="projects/Battleship-Final/final.html" target="_blank"><img src="images/Battleship1.png" class="project-image"></a><br><br>
+      <div class="items-center">
+        <p class="project-title">JavaScript Battleship</p>
+        <p class="project-text">It's a classic game that is apparently a bear to build in JavaScript.  I'm not going to lie, this was tough.  Loved every minute of it though.  Hope you enjoy this nearly impossible to beat web based version of the original.  (Hint: No two ships will ever be touching each other.)
+        </p>
+        <p class="project-text">Technologies: HTML, CSS, JavaScript</p>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 project-fonts"><a href="https://collaboration-tracker.herokuapp.com/login/heroku_user" target="_blank"><img src="images/Neuropace1.png" class="project-image"></a><br><br>
+      <div class="items-center">
+        <p class="project-title">NeuroPace</p>
+        <p class="project-text">I had the pleasure of completing a 5 week web development internship with NeuroPace.  Myself and two other interns built a web based information tracking and sharing tool for employees and clients . . . from nothing . . . in Python . . . with MongoDB.   It was all new and very exciting.
+        </p>
+        <p class="project-text">Technologies: HTML, CSS, JavaScript, Bootstrap, jQuery, Python, Flask, MongoDB, AJAX</p>
+      </div>
+    </div>
   </div>
+</div>
 
-    <!-- <div class="row">
-    <div class="col-sm-4"><br>Project 4</div>
-    <div class="col-sm-4"><br>Project 5</div>
-    <div class="col-sm-4"><br>Project 6</div>
-  </div> -->
+<!-- <div class="row">
+<div class="col-sm-4"><br>Project 4</div>
+<div class="col-sm-4"><br>Project 5</div>
+<div class="col-sm-4"><br>Project 6</div>
+</div> -->
 </body>
 <footer>
   <div class="container-fluid">
